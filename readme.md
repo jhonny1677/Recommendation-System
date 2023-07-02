@@ -1,30 +1,30 @@
-# downlaod the following embeddings and place them in input folder
+# Downlaod the following embeddings and place them in input folder
 
-#### download w2v
+#### Download w2v
 
  gdown https://drive.google.com/file/d/1LDdF6M6VzNhXfJyqb1OXLWno8TrExg6o/view?usp=sharing
 
-#### download glove
+#### Download glove
 
 ## This will be downloaded in zip file unzip it and place it in input folder
 
  wget https://drive.google.com/file/d/1P9JFZ43Id9dXOo_xFpqLkx81jOsXrQC0/view?usp=sharing
 
-#### download fastext
+#### Download fastext
 
 fastext https://drive.google.com/file/d/1hgb-kxJzFkcktsxBEpthmCxzlwe_IM6o/view?usp=sharing
 
 ## Install all the requirements
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Run the engine.py file to execute the code
 
 ## Select the appropriate options to get the recommendation for the product choosen in config file
 
-# to run the streamlit API use the following command
+# To run the streamlit API use the following command
 
-streamlit run product_recommendation_streamlit.py
+`streamlit run product_recommendation_streamlit.py`
 
 ## Note
 
